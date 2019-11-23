@@ -1,0 +1,20 @@
+#!/bin/bash
+
+git submodule update --init --recursive
+
+CYAN='\033[0;36m';
+NO_COLOR='\033[0m' # No Color;
+
+root_dir=$(pwd)
+
+cd projects && for dir in */;
+do
+  if [ -f "$dir/.git" ]; then
+    printf "Checking for updates to ${CYAN}$dir${NO_COLOR} ... "
+    cd $dir
+    git pull origin master
+    cd ..
+  fi
+done
+
+cd $root_dir

@@ -1,0 +1,15 @@
+[submodule "projects/Udacity-Sensor-Fusion-Unscented-Kalman-Filter"]
+	path = projects/Udacity-Sensor-Fusion-Unscented-Kalman-Filter
+	url = git@github.com:Bee-Mar/Udacity-Sensor-Fusion-Unscented-Kalman-Filter.git
+[submodule "projects/Udacity-Sensor-Fusion-Camera-Tracking"]
+	path = projects/Udacity-Sensor-Fusion-Camera-Tracking
+	url = git@github.com:Bee-Mar/Udacity-Sensor-Fusion-Camera-Tracking.git
+[submodule "projects/Udacity-Sensor-Fusion-Lidar-Obstacle-Detection"]
+	path = projects/Udacity-Sensor-Fusion-Lidar-Obstacle-Detection
+	url = git@github.com:Bee-Mar/Udacity-Sensor-Fusion-Lidar-Obstacle-Detection.git
+[submodule "projects/Udacity-Sensor-Fusion-Radar-Target-Gen-and-Detection"]
+	path = projects/Udacity-Sensor-Fusion-Radar-Target-Gen-and-Detection
+	url = git@github.com:Bee-Mar/Udacity-Sensor-Fusion-Radar-Target-Gen-and-Detection.git
+[submodule "projects/Udacity-Sensor-Fusion-3D-Object-Tracking"]
+	path = projects/Udacity-Sensor-Fusion-3D-Object-Tracking
+	url = git@github.com:Bee-Mar/Udacity-Sensor-Fusion-3D-Object-Tracking.git
